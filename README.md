@@ -151,22 +151,11 @@ Run the SQL codes below to load the tables
 ### Logic Modeling
 https://github.com/dataramus/Business-Inteligence---SQL-Server/blob/main/modeling/02%20-%20STAGE.mdj
 ![logic model](https://github.com/dataramus/Business-Inteligence---SQL-Server/blob/main/modeling/DATABASE%20DIAGRAM.png)
-```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
 
-# entrar na pasta do projeto front end web
-cd front-web
 
-# instalar dependências
-yarn install
-
-# executar o projeto
-yarn start
-```
 
 # Autor
 
 Luis Coelho
 
-https://www.linkedin.com/in/wmazoni
+https://www.linkedin.com/in/luis-coelho-913093116/
