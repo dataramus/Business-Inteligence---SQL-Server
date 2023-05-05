@@ -122,7 +122,7 @@ GO
 ```
 ### ETL - Integration Services
 Now inside the Visual Studio (https://github.com/dataramus/Business-Inteligence---SQL-Server/blob/main/PROJETO_BI/PROJETO_BI.sln) I created a connection between OLTP and Stage using the SISS Package.
-After created I Load the from OLTP area to Stage area, that you can see at the file PROK_ETL (https://github.com/dataramus/Business-Inteligence---SQL-Server/tree/main/PROJETO_BI/PROJ_ETL)
+After created I Load the from OLTP area to Stage area, that you can see at the file PROJ_ETL (https://github.com/dataramus/Business-Inteligence---SQL-Server/tree/main/PROJETO_BI/PROJ_ETL)
 
 14 - Products table in Camel Case: https://github.com/dataramus/Business-Inteligence---SQL-Server/blob/main/Scripts%20PT/14%20-%20CAMEL%20CASE%20CURSOR.sql
 
@@ -133,7 +133,42 @@ After created I Load the from OLTP area to Stage area, that you can see at the f
 https://github.com/dataramus/Business-Inteligence---SQL-Server/blob/main/modeling/03%20-%20DATAWAREHOUSE.mdj
 
 ### Phisical Modeling
-16 - Create DW: https://github.com/dataramus/Business-Inteligence---SQL-Server/blob/main/Scripts%20PT/16%20-%20DATA%20WAREHOUSE.sql
+16 - Creating DW: https://github.com/dataramus/Business-Inteligence---SQL-Server/blob/main/Scripts%20PT/16%20-%20DATA%20WAREHOUSE.sql
+```sql
+CREATE DATABASE COMERCIO_DW
+GO
+
+USE COMERCIO_DW
+GO
+
+CREATE TABLE DIM_VENDEDOR(
+	IDSK INT PRIMARY KEY IDENTITY,
+	IDVENDEDOR INT,
+	INICIO DATETIME,
+	FIM DATETIME,
+	NOME VARCHAR(50),
+	SEXO VARCHAR(20),
+	IDGERENTE INT
+)
+GO
+	.
+	.
+	.	
+```
+
+17 - Creating Time Dimension: https://github.com/dataramus/Business-Inteligence---SQL-Server/blob/main/Scripts%20PT/17%20-%20LOAD%20DIMENCAO%20TEMPO.sql
+
+18 - Load Fact Table: https://github.com/dataramus/Business-Inteligence---SQL-Server/blob/main/Scripts%20PT/18%20-%20LOAD%20FATO.sql
+
+### Analysis Service - Cube
+
+All the dimensions are created in Visual Studio: https://github.com/dataramus/Business-Inteligence---SQL-Server/tree/main/PROJETO_BI/PROJ_OLAP
+
+### Reporting Service
+
+All the reports are created in Visual Studio: https://github.com/dataramus/Business-Inteligence---SQL-Server/tree/main/PROJETO_BI/PROJ_OLAP
+
+22 - https://github.com/dataramus/Business-Inteligence---SQL-Server/blob/main/Scripts%20PT/21%20-%20ENABLING%20CATALOG.sql
 
 Luis Coelho
 
