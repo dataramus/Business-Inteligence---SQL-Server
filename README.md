@@ -30,7 +30,6 @@ I joined the knowledge of Microsoft's Excel tools in a project. The data will be
 
 ### Logic Modeling
   https://github.com/dataramus/Business-Inteligence---SQL-Server/blob/main/modeling/01%20-%20OLTP.mdj
-![logic model](https://github.com/dataramus/Business-Inteligence---SQL-Server/blob/main/modeling/entity%20relationship%20diagram%20(ERP).jpg)
 
 ### Phisical Modeling
 1 - Creating Tables  https://github.com/dataramus/Business-Inteligence---SQL-Server/blob/main/Scripts%20PT/01%20-%20OLTP%20TRANDING%20MODELING.sql
@@ -125,10 +124,16 @@ GO
 Now inside the Visual Studio (https://github.com/dataramus/Business-Inteligence---SQL-Server/blob/main/PROJETO_BI/PROJETO_BI.sln) I created a connection between OLTP and Stage using the SISS Package.
 After created I Load the from OLTP area to Stage area, that you can see at the file PROK_ETL (https://github.com/dataramus/Business-Inteligence---SQL-Server/tree/main/PROJETO_BI/PROJ_ETL)
 
+14 - Products table in Camel Case: https://github.com/dataramus/Business-Inteligence---SQL-Server/blob/main/Scripts%20PT/14%20-%20CAMEL%20CASE%20CURSOR.sql
+
+15 - Sales Report (for the Nota Fiscal): https://github.com/dataramus/Business-Inteligence---SQL-Server/blob/main/Scripts%20PT/15%20-%20LOAD%20VIEW%20SALLES%20REPORT.sql
+
 ## DATAWAREHOUSE (DW)
+### Logic Modeling
+https://github.com/dataramus/Business-Inteligence---SQL-Server/blob/main/modeling/03%20-%20DATAWAREHOUSE.mdj
 
-
-# By
+### Phisical Modeling
+16 - Create DW: https://github.com/dataramus/Business-Inteligence---SQL-Server/blob/main/Scripts%20PT/16%20-%20DATA%20WAREHOUSE.sql
 
 Luis Coelho
 
