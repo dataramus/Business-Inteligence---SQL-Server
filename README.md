@@ -160,6 +160,10 @@ GO
 
 18 - Load Fact Table: https://github.com/dataramus/Business-Inteligence---SQL-Server/blob/main/Scripts%20PT/18%20-%20LOAD%20FATO.sql
 
+19 - Load View: https://github.com/dataramus/Business-Inteligence---SQL-Server/blob/main/Scripts%20PT/16%20-%20LOAD%20VIEW.sql
+
+20 - Chart Query: https://github.com/dataramus/Business-Inteligence---SQL-Server/blob/main/Scripts%20PT/20%20-%20CHART%20QUARY.sql
+
 ### Analysis Service - Cube
 
 All the dimensions are created in Visual Studio: https://github.com/dataramus/Business-Inteligence---SQL-Server/tree/main/PROJETO_BI/PROJ_OLAP
@@ -168,8 +172,8 @@ All the dimensions are created in Visual Studio: https://github.com/dataramus/Bu
 
 All the reports are created in Visual Studio: https://github.com/dataramus/Business-Inteligence---SQL-Server/tree/main/PROJETO_BI/PROJ_OLAP
 
-22 - https://github.com/dataramus/Business-Inteligence---SQL-Server/blob/main/Scripts%20PT/21%20-%20ENABLING%20CATALOG.sql
+21 - https://github.com/dataramus/Business-Inteligence---SQL-Server/blob/main/Scripts%20PT/21%20-%20ENABLING%20CATALOG.sql
+
 
 Luis Coelho
-
 https://www.linkedin.com/in/luis-coelho-913093116/
