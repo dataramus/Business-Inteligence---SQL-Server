@@ -123,11 +123,12 @@ GO
 ```
 ### ETL - Integration Services
 Now inside the Visual Studio (https://github.com/dataramus/Business-Inteligence---SQL-Server/blob/main/PROJETO_BI/PROJETO_BI.sln) I created a connection between OLTP and Stage using the SISS Package.
-After created I Load the from OLTP area to Stage area
+After created I Load the from OLTP area to Stage area, that you can see at the file PROK_ETL (https://github.com/dataramus/Business-Inteligence---SQL-Server/tree/main/PROJETO_BI/PROJ_ETL)
+
+## DATAWAREHOUSE (DW)
 
 
-
-# Autor
+# By
 
 Luis Coelho
 
