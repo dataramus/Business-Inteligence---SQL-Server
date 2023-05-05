@@ -174,6 +174,16 @@ All the reports are created in Visual Studio: https://github.com/dataramus/Busin
 
 21 - https://github.com/dataramus/Business-Inteligence---SQL-Server/blob/main/Scripts%20PT/21%20-%20ENABLING%20CATALOG.sql
 
+prints of reports on the server.
 
+http:// BISERVER:80/tera
+![server](https://github.com/dataramus/Business-Inteligence---SQL-Server/blob/main/Image/server.png)
+http://BISERVER/relatorios
+![home](https://github.com/dataramus/Business-Inteligence---SQL-Server/blob/main/Image/server%20-%20home.png)
+![relatorios](https://github.com/dataramus/Business-Inteligence---SQL-Server/blob/main/Image/server%20-%20relatorios.png)
+![exemplo](https://github.com/dataramus/Business-Inteligence---SQL-Server/blob/main/Image/server%20-%20exemplo.png)
+
+##By
 Luis Coelho
+
 https://www.linkedin.com/in/luis-coelho-913093116/
